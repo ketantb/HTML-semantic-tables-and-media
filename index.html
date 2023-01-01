@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Semantic Tables & media
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+            body{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    background-color: lightblue;
+            }
+            th{
+                background-color:rgb(2, 63, 142);
+                font-size: x-large; 
+                color: azure;
+                height: 40px;
+            }
+            th:first-child{
+                border-top-left-radius: 7px;
+            }
+            th:last-child{
+                border-top-right-radius: 7px;
+            }
+            td{
+                background-color: aliceblue;
+                font-size: 110%;
+                height: 30px;
+                width: 180px;
+                
+            }
+            table{
+                margin-top: 60px;
+                margin-left: 45px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table>
+                <thead align="left">
+                <tr>
+                   <th>Roll numbers</th>
+                   <th>Names</th>   
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>917836</td>
+                    <td>Tony Stark</td>
+                </tr>
+                <tr>
+                    <td>987132</td>
+                    <td>Thor Odinson</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <h1>List of medias</h1>
+            <ol>
+                <li style="padding-top: 2%">Image</li>
+                <img src="https://picsum.photos/id/123/200/300" alt="Unknown Artist">
+                <li style="padding-top: 2%">Video</li>
+                <video controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                </video>
+                <li style="padding-top: 2%;">Audio</li>
+                <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+                </audio>
+            </ol>
+        </body>
+    </body>
+</html>
